@@ -6,7 +6,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>demo-mvc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>demo-1</name>
 	<description>Demo project for Spring Boot</description>
@@ -41,12 +41,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 
-			<exclusions>
+			<!-- <exclusions>
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
-			</exclusions>
+			</exclusions>  -->
 		</dependency>
 
 		<dependency>
@@ -62,11 +62,11 @@
 			<version>11.2.0.3</version>
 		</dependency>  -->
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<scope>provided</scope>
-		</dependency>
+		</dependency>  -->
 	</dependencies>
 
 	<build>
